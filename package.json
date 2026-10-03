@@ -1,0 +1,21 @@
+{
+  "name": "license-gate",
+  "version": "1.0.0",
+  "description": "Local license expression & admission policy check backend",
+  "main": "dist/cli.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/*.test.js\"",
+    "start": "node dist/api.js",
+    "cli": "node dist/cli.js",
+    "demo": "node dist/demo.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  }
+}
